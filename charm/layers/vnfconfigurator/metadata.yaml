@@ -1,0 +1,5 @@
+name: vnfconfigurator
+summary: A VNF proxy charm for configuring a VNF
+maintainer: Gerardo Garcia <gerardo.garciadeblas@telefonica.com>
+subordinate: false
+series: ['xenial']

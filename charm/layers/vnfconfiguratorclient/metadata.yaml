@@ -1,0 +1,10 @@
+name: vnfconfiguratorclient
+summary: A VNF proxy charm only for day1 configuration of a VNF
+description: |
+  This is a VNF proxy charm for day1 configuration of a VNF.
+  It assumes that the day1 configuration resides in an external element,
+  e.g. EM, and it is retrieved by the VNF using a program that is
+  inside the VNF.
+maintainer: Gerardo Garcia <gerardo.garciadeblas@telefonica.com>
+subordinate: false
+series: ['xenial']

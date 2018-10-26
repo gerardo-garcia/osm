@@ -1,0 +1,30 @@
+touch:
+    description: "Touch a file on the VNF."
+    params:
+        filename:
+            description: "The name of the file to touch."
+            type: string
+            default: ""
+    required:
+        - filename
+
+get-day1-configuration:
+    description: "Get day 1 configuration."
+    params:
+        param1:
+            description: "Param 1. Could be the IP address of the element hosting the day1 config"
+            type: string
+            default: ""
+        param2:
+            description: "Param 2."
+            type: string
+            default: ""
+        param3:
+            description: "Param 3."
+            type: string
+            default: ""
+    required:
+        - param1
+        - param2
+        - param3
+

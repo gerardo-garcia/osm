@@ -1,0 +1,51 @@
+touch:
+    description: "Touch a file on the VNF."
+    params:
+        filename:
+            description: "The name of the file to touch."
+            type: string
+            default: ""
+    required:
+        - filename
+
+day1-configuration:
+    description: "Create day 1 configuration."
+    params:
+        param1:
+            description: "Param 1."
+            type: string
+            default: ""
+        param2:
+            description: "Param 2."
+            type: string
+            default: ""
+        param3:
+            description: "Param 3."
+            type: string
+            default: ""
+    required:
+        - param1
+        - param2
+        - param3
+
+day2-operation:
+    description: "Do a day 2 operation."
+    params:
+        param1:
+            description: "Param 1."
+            type: string
+            default: ""
+        param2:
+            description: "Param 2."
+            type: string
+            default: ""
+        param3:
+            description: "Param 3."
+            type: string
+            default: ""
+    required:
+        - param1
+        - param2
+        - param3
+
+
