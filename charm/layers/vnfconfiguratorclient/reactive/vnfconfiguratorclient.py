@@ -34,17 +34,17 @@ import charms.sshproxy
 
 @when('sshproxy.configured')
 @when_not('vnfconfiguratorclient.installed')
-def install_generic_proxy_charm():
+def install_proxy_charm():
     """Post-install actions.
 
     This function will run when two conditions are met:
     1. The 'sshproxy.configured' state is set
-    2. The 'configurator.installed' state is not set
+    2. The 'vnfconfiguratorclient.installed' state is not set
 
     This ensures that the workload status is set to active only when the SSH
     proxy is properly configured.
     """
-    set_flag('generic.installed')
+    set_flag('vnfconfiguratorclient.installed')
     status_set('active', 'Ready!')
 
 
