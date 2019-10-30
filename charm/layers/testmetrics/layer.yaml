@@ -1,1 +1,5 @@
 includes: ['layer:basic', 'layer:sshproxy', 'layer:metrics']  # if you use any interfaces, add them here
+options:
+    basic:
+        use_venv: false
+repo: 'https://github.com/gerardo-garcia/osm.git'
