@@ -1,4 +1,6 @@
 includes: ['layer:basic', 'layer:vnfproxy']
 options:
-        basic:
-                use_venv: false
+    basic:
+        use_venv: false
+repo: 'https://github.com/gerardo-garcia/osm.git'
+
