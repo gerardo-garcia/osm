@@ -1,0 +1,5 @@
+metrics:
+  users:
+    type: gauge
+    description: "# of users"
+    command: /home/ubuntu/get.metric.sh

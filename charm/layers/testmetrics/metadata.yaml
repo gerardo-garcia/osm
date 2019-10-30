@@ -1,0 +1,14 @@
+name: testmetrics
+summary: Charm for metrics
+maintainer: garciadeblas <gerardo.garciadeblas@telefonica.com>
+description: |
+  A charm to read metrics
+series:
+  - bionic
+  - xenial
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
+

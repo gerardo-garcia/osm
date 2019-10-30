@@ -1,7 +1,8 @@
 BUILD_DIR = .
 
 CHARMS:= vnfconfigurator\
-         vnfconfiguratorclient
+         vnfconfiguratorclient \
+	 testmetrics
 CHARM_SRC_DIR := layers
 CHARM_BUILD_DIR := $(BUILD_DIR)/builds
 
